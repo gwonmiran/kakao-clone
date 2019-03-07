@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body, html{
+      height:100;
+      maargin:0;
+      padding:0;
+      브라우저가 가지고 있는 디폴트값 상쇄
+    }
+    body{
+      hegith: 400%;
+      background-color: red;
+    }
+    /* postion fixed
+     #boxone{
+      height: 300px;
+      width: 300px;
+      background-color: white;
+      position: static;
+    }
+    #boxtwo{
+      height: 300px;
+      width: 100%;
+      background-color: green;
+      position: fixed;
+      left: 50px
+    } */
+    .abs-box{
+      width: 400px;
+      height: 400px;
+      background-color: yellow;
+      position: relative;
+    }
+    .abs-child{
+      width:100px;
+      height: 100px;
+      background-color: green;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+    </style>
+</head>
+<body>
+  <div class="abs-box">
+    <div class="abs-child"></div>
+  </div>
+  <!-- postion fixed
+  <div id="boxone">
+    <div class="box-child"></div>
+  </div>
+  <div id="boxtwo">
+    <div class="box-child"></div>
+  </div> -->
+</body>
+</html>
